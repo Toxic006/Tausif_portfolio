@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tausif | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Sk Tausif</div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+                <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
+                <li><a href="#education" onclick="closeMobileMenu()">Education</a></li>
+                <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sk Tausif</h1>
+                <p>I’m a full-stack developer passionate about building clean, scalable, and user-focused web
+                    applications. I love turning ideas into seamless digital experiences that blend high performance
+                    with intuitive design.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">View My Work</a>
+                    <a href="src/Resume_Tausif.pdf" class="resume-button" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"><u>About Me</u></h2>
+            <div class="about-content">
+                <img src="src/Tausif_photo.jpg" alt="Profile" class="about-image">
+                <div class="about-text">
+                    <p>Hello! I’m Sk Tausif, a passionate and enthusiastic learner currently pursuing my Bachelor in
+                        Computer Applications (BCA) at Sri Sri University 2023-26. Alongside my development skills, I
+                        have a strong knack for problem-solving — whether it’s debugging complex code, optimizing
+                        performance, or finding innovative solutions to technical challenges.I believe in continuous
+                        learning and constantly explore new technologies, frameworks, and design trends to improve my
+                        skills.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                        projects, or enjoying a good cup of coffee while planning my next creative project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills 🔧</h2>
+            <p class="section-subtitle">Here are some of the tools & technologies I had worked with: 💫</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML">
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript">
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js">
+                    </div>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                            alt="React">
+                    </div>
+                    <h3>React.js</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                            alt="Tailwind CSS">
+                    </div>
+                    <h3>Tailwind CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    </div>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                            alt="Express.js">
+                    </div>
+                    <h3>Express.js</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="MySQL">
+                    </div>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                            alt="MongoDB">
+                    </div>
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                            alt="VSCode">
+                    </div>
+                    <h3>VSCode</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/DigitalCart.jpg" alt="DigitalCart">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A modern and responsive E-Commerce Web Application built for tech products. The store provides a seamless shopping experience with essential e-commerce features like cart system, product reviews, order placement, sorting, theme switching, and API-based product fetching.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://digital-cart.vercel.app/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/Tausif-006/DigitalCart" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/Ask_ai.png" alt="AskAI">
+                    </div>
+                    <div class="project-content">
+                        <h3>Ask AI - An Interactive AI Chatbot!</h3>
+                        <p>A modern AI chatbot application built with React, Vite, and Google's Gemini AI. Experience intelligent conversations with Real-time Chat Interface, responsive conversations with Gemini AI Integration - Powered by Google's advanced AI model
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Gemini API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ask-ai-blue.vercel.app/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/Tausif-006" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/Tausif_portfolio.png" alt="DigitalCart">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Developed a personal portfolio website to showcase projects and professional skills. The site features a modern user interface and smooth animations for a professional online presence demonstrating my development capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React js</HTML:5></span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Github</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div>
+                    <img src="src/ssu.jpg"
+                        alt="University Campus" class="university-image">
+                </div>
+                <div class="education-details">
+                    <div class="education-item">
+                        <h3>Bachelor of Computer Application</h3>
+                        <div class="university">SRI SRI UNIVERSITY</div>
+                        <div class="duration">2023 - 2026</div>
+                        <p>Focused on software engineering, data structures, algorithms, and web development. Completed
+                            capstone project in web development.</p>
+                        <span class="gpa">Expected - 2026</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>High School </h3>
+                        <div class="university">Christ High School</div>
+                        <div class="duration">2021 - 2023</div>
+                        <p>with focus on Mathematics and Computer Science. President of the
+                            Sports club and participated in many sports events.</p>
+                        <span class="gpa">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or
+                        just want to say hi, feel free to reach out!</p>
+                    <p>📧 sktausif1064@gmail.com</p>
+                    <p>📱 +91 90406*****</p>
+                    <p>📍 Cuttack, Odisha</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="mailto:sktausif1064@gmail.com">📧</a>
+                <a href="https://www.linkedin.com/in/sk-tausif-2b4104311/">💼</a>
+                <a href="https://github.com/">🐙</a>
+            </div>
+            <p>&copy; 2025 Sk Tausif. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
